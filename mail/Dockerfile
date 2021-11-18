@@ -13,3 +13,5 @@ ADD config.json .
 EXPOSE 8080
 EXPOSE 8085
 EXPOSE 2500
+
+ENTRYPOINT ["mailslurper"]
